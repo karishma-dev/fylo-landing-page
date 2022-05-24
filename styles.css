@@ -76,6 +76,7 @@ nav a{
 #error-msg,
 #error-msg-2{ display: none; }
 input{ outline: none; }
+.social-link{ margin: 0 5px; }
 @media (max-width: 1200px) {
     .main-bg-img{
         top: -60px;
@@ -96,10 +97,7 @@ input{ outline: none; }
 @media (max-width: 767px) {
     footer .col{ margin: 13px auto; }
     .footer-nav a{ margin: 5px 0 0; }
-    .social-link{
-        width: fit-content;
-        margin: 0 5px;
-    }
+    .social-link{ width: fit-content; }
     .main-bg-img{
         top: -20px;
         height: 150px;
